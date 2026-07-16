@@ -1,18 +1,16 @@
 # postgres-mysql-Learning
 # SQL Learning Log
 
-##  Environment Setup & Onboarding
+## Environment Setup & Onboarding
 * **Date:** July 16, 2026
 * **Status:** Environment ready. 
 * **Goal Completed:** Set up local/online playgrounds for both PostgreSQL and MySQL to test syntax.
 
-### Initial Verification Script:
+### Initial Verification Script
 ```sql
 -- Testing environment readiness
 SELECT 'PostgreSQL and MySQL Environment Ready' AS Status;
 
-#### 1. PostgreSQL Verification Script
-```sql
 CREATE TABLE pg_readiness (
     id SERIAL PRIMARY KEY,
     database_system VARCHAR(50),
