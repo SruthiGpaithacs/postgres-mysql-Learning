@@ -21,3 +21,6 @@ INSERT INTO pg_readiness (database_system, status)
 VALUES ('PostgreSQL', 'Ready for learning resources');
 
 SELECT * FROM pg_readiness;
+
+### Local Verification Screenshot:
+![Local Setup Proof](local_setup.png)
