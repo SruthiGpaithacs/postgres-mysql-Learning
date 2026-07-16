@@ -23,4 +23,7 @@ VALUES ('PostgreSQL', 'Ready for learning resources');
 SELECT * FROM pg_readiness;
 
 ### Local Verification Screenshot:
-![Local Setup Proof](local_setup.png)
+![Local Setup Proof](sql.png)
+
+### MySQL Verification Screenshot:
+![MySQL Setup Proof](mysql.png)
