@@ -10,3 +10,16 @@
 ```sql
 -- Testing environment readiness
 SELECT 'PostgreSQL and MySQL Environment Ready' AS Status;
+
+#### 1. PostgreSQL Verification Script
+```sql
+CREATE TABLE pg_readiness (
+    id SERIAL PRIMARY KEY,
+    database_system VARCHAR(50),
+    status VARCHAR(50)
+);
+
+INSERT INTO pg_readiness (database_system, status) 
+VALUES ('PostgreSQL', 'Ready for learning resources');
+
+SELECT * FROM pg_readiness;
